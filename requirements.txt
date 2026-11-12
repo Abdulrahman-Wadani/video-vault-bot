@@ -1,0 +1,4 @@
+telethon==1.42.0
+cryptg==0.5.0.post0
+yt-dlp[default]
+deno
