@@ -60,8 +60,13 @@ docker compose build --pull --no-cache && docker compose up -d
 ```
 bot.py            Telegram handlers, download queue, yt-dlp and ffmpeg helpers
 setup-env.sh      Writes .env without echoing secrets
-Dockerfile        Python 3.12 + ffmpeg + Deno (needed by yt-dlp for YouTube)
+Dockerfile        Python 3.12 + ffmpeg, runs as a non-root user
+requirements.txt  Telethon, cryptg, yt-dlp and Deno (needed by yt-dlp for YouTube)
 compose.yaml      Runs the bot with restart: unless-stopped
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
 
 For personal use. Respect the terms of the sites you download from and the rights of the people who made the videos.
